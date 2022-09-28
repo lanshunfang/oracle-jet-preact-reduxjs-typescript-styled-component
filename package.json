@@ -1,16 +1,17 @@
 {
-  "name": "oracle-jet-preact-ts-webpack-redux-styled-component-12",
+  "name": "oracle-jet-preact-ts-webpack-redux-styled-component",
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "dependencies": {
-    "@oracle/oraclejet": "~12.1.0",
+    "@oracle/oraclejet": "~13.0.0",
     "@reduxjs/toolkit": "^1.8.3",
     "react-redux": "^8.0.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@oracle/ojet-cli": "^13.0.0",
     "@babel/core": "^7.18.6",
-    "@oracle/oraclejet-tooling": "~12.1.0",
+    "@oracle/oraclejet-tooling": "^13.0.1",
     "@prefresh/babel-plugin": "0.4.3",
     "@prefresh/webpack": "3.3.4",
     "babel-loader": "^8.2.5",
