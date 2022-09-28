@@ -10,6 +10,7 @@ Come from the world of ReactJS/ReduxJS and can't bare KnockoutJS? Here you are.
     - Redux Toolkit
     - createSlice
 - Styled Component
+- Router Router v6
 - Sourcemap
     - Fixed JET 12 Sourcemap issue with JSX
 
