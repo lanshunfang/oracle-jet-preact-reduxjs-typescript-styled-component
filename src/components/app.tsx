@@ -1,12 +1,16 @@
 import Context from "ojs/ojcontext";
 import { customElement, ExtendGlobalProps } from "ojs/ojvcomponent";
 import { Component, ComponentChild, h } from "preact";
-import { Content } from "./content/index";
 import { Footer } from "./footer";
 import { Header } from "./header";
 
 import { Provider } from 'react-redux';
+import {
+  RouterProvider
+} from "react-router-dom";
+
 import { store } from '../app/store';
+import { router } from "./router";
 
 type Props = {
   appName?: string;
@@ -28,7 +32,8 @@ export class App extends Component<ExtendGlobalProps<Props>> {
             appName={props.appName} 
             userLogin={props.userLogin} 
           />
-          <Content />
+
+          <RouterProvider router={router} />
           <Footer />
         </div>
       </Provider>
