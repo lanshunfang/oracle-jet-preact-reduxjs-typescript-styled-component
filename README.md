@@ -14,4 +14,4 @@ Come from the world of ReactJS/ReduxJS and can't bare KnockoutJS? Here you are.
 - Sourcemap
     - Fixed JET 12 Sourcemap issue with JSX
 
-![](doc/images/2022-07-02-20-59-24.png)
+![](doc/images/2022-09-27-21-41-46.png)
