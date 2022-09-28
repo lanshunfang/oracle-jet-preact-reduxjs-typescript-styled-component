@@ -1,6 +1,6 @@
 # Starter Oracle JET template with JSX, Webpack and more
 
-- Oracle JET 12
+- Oracle JET 13
 - Webpack 5
 - Preact X 10
     - React Function Component

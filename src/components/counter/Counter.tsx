@@ -42,7 +42,7 @@ export function Counter(props: {
 
   return (
     <div>
-      <Title>My name is {props.name}</Title>
+      <Title>Components: {props.name}</Title>
       
       <oj-form-layout max-columns="3" direction="column">
 
