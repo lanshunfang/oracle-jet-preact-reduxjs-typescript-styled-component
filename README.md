@@ -1,4 +1,5 @@
 # Starter Oracle JET template with JSX, Webpack and more
+Come from the world of ReactJS/ReduxJS and can't bare KnockoutJS? Here you are.
 
 - Oracle JET 13
 - Webpack 5
