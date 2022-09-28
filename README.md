@@ -11,6 +11,7 @@ Come from the world of ReactJS/ReduxJS and can't bare KnockoutJS? Here you are.
     - createSlice
 - Styled Component
 - Router Router v6
+    - With Preact Lazy loading
 - Sourcemap
     - Fixed JET 12 Sourcemap issue with JSX
 

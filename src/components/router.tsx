@@ -1,11 +1,11 @@
 import { h } from "preact";
+import { lazy, Suspense } from "preact/compat";
 import {
     createHashRouter
 } from "react-router-dom";
 
+const CounterLazy = lazy(() => import('./counter/counter'));
 
-
-import Counter from './counter/counter';
 import RouterRoot from "./RouterRoot";
 
 export const ROUTE_ABS: {
@@ -34,7 +34,9 @@ export const router = createHashRouter([
         children: [
             {
                 path: ROUTE_ABS.Counter.path,
-                element: <Counter name="Preact Function Component for Oracle JET, with Redux/Styled-Component." />,
+                element: <Suspense fallback={<div>...</div>}>
+                    <CounterLazy name="Preact Function Component for Oracle JET, with Redux/Styled-Component." />
+                </Suspense>,
             },
 
             {
@@ -43,7 +45,7 @@ export const router = createHashRouter([
             },
         ],
     },
-    
 
-   
+
+
 ]);
